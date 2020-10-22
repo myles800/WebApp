@@ -59,5 +59,12 @@ class RouteServiceProvider extends ServiceProvider
         RateLimiter::for('api', function (Request $request) {
             return Limit::perMinute(60);
         });
+        RateLimiter::for('login', function (Request $request) {
+            //check if email is in database
+
+            return Limit::perMinute(1)->by($request->input('email'))->response(function () {
+                return back()->withErrors([trans('auth.throttle', ['seconds' => '60'])]);
+            });
+        });
     }
 }

@@ -7,6 +7,7 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Validator;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -61,10 +62,16 @@ class RouteServiceProvider extends ServiceProvider
         });
         RateLimiter::for('login', function (Request $request) {
             //check if email is in database
+            $validator = Validator::make($request->all(), [
+                'email' => 'required|exists:users',
+                'password' => 'required|string'
+            ]);
+            if ($validator->passes()) {
 
-            return Limit::perMinute(1)->by($request->input('email'))->response(function () {
-                return back()->withErrors([trans('auth.throttle', ['seconds' => '60'])]);
-            });
+                return Limit::perMinute(1)->by($request->input('email'))->response(function () {
+                    return back()->withErrors([trans('auth.throttle', ['seconds' => '60'])]);
+                });
+            }
         });
     }
 }

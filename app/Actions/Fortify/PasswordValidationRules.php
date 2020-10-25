@@ -3,6 +3,7 @@
 namespace App\Actions\Fortify;
 
 use Laravel\Fortify\Rules\Password;
+use Ubient\PwnedPasswords\Rules\Pwned;
 
 trait PasswordValidationRules
 {
@@ -13,6 +14,6 @@ trait PasswordValidationRules
      */
     protected function passwordRules()
     {
-        return ['required', 'string', new Password, 'confirmed','pwned:300'];
+        return ['required', 'string', (new Password)->length(7), 'confirmed',new Pwned(300)];
     }
 }

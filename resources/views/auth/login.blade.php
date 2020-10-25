@@ -44,7 +44,8 @@
                 </x-jet-button>
             </div>
         </form>
-        @include('cookieConsent::index')
 
     </x-jet-authentication-card>
+
 </x-guest-layout>
+@include('cookieConsent::index')

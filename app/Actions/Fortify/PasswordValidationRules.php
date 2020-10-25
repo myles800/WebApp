@@ -14,6 +14,6 @@ trait PasswordValidationRules
      */
     protected function passwordRules()
     {
-        return ['required', 'string', (new Password)->length(7), 'confirmed',new Pwned(300)];
+        return ['required', 'string', (new Password)->length(7), 'confirmed','pwned:300'];
     }
 }

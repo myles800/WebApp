@@ -39,3 +39,5 @@ Route::post('/email/verification-notification', function (Request $request) {
 
     return back()->with('status', 'verification-link-sent');
 })->middleware(['auth', 'throttle:6,1'])->name('verification.send');
+Route::middleware(['auth:sanctum', 'verified'])->get('/downloadjson',[\App\Http\Controllers\JsonToFileController::class, 'downloadJSON'])
+    ->name('downloadjson');

@@ -11,11 +11,7 @@ class ProductController extends Controller
 {
     public function read(Request $request)
     {
-        if ($request->user()->tokenCan('read')) {
-
             return response(Product::get(['id', 'name', 'price', 'code']), 200);
-        }
-        return response('401:Unauthorized', 401);
     }
 
     public function readId(Request $request)

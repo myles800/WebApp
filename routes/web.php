@@ -15,6 +15,7 @@ use Illuminate\Http\Request;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -41,3 +42,5 @@ Route::post('/email/verification-notification', function (Request $request) {
 })->middleware(['auth', 'throttle:6,1'])->name('verification.send');
 Route::middleware(['auth:sanctum', 'verified'])->get('/downloadjson',[\App\Http\Controllers\JsonToFileController::class, 'downloadJSON'])
     ->name('downloadjson');
+Route::middleware(['auth:sanctum', 'verified'])->get('/gdpr',[\App\Http\Controllers\JsonToFileController::class, 'gdpr'])
+    ->name('gdpr');

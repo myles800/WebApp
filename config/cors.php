@@ -15,20 +15,21 @@ return [
     |
     */
 
-    'paths' => ['api/*'],
+    'paths' => ['api/**/*'],
 
-    'allowed_methods' => ['*'],
+    'allowed_methods' => ['POST', 'GET', 'OPTIONS', 'PUT', 'DELETE'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['https://myles.digital','http://localhost:8000','http://127.0.0.1:8000'],
 
     'allowed_origins_patterns' => [],
 
-    'allowed_headers' => ['*'],
+    'allowed_headers' => ['content-type','accept','authorization'],
 
-    'exposed_headers' => [],
+    'exposed_headers' => ['*'],
 
     'max_age' => 0,
 
-    'supports_credentials' => false,
+
+    'supports_credentials' => true,
 
 ];

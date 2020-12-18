@@ -10,6 +10,43 @@
             <div class="mt-10 sm:mt-0">
                 <x-jet-action-section>
                     <x-slot name="title">
+                        {{ __('Privacy Policy') }}
+                    </x-slot>
+
+                    <x-slot name="description">
+                        {{ __('If you want to see de gdpr compliance of this website. Click on this link.') }}
+                    </x-slot>
+
+                    <x-slot name="content">
+                        <h3 class="text-lg font-medium text-gray-900">
+
+                            {{ __('GDPR') }}
+
+                        </h3>
+
+                        <div class="mt-3 max-w-xl text-sm text-gray-600">
+                            <p>
+                                {{ __('Click on the button to see privacy policy.') }}
+                            </p>
+                        </div>
+
+
+                        <div class="mt-5">
+                            <a type="button"
+                               class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray disabled:opacity-25 transition ease-in-out duration-150"
+                               href="{{route("gdpr")}}">
+                                {{ __('See policy') }}
+                            </a>
+                        </div>
+                    </x-slot>
+                </x-jet-action-section>
+
+            </div>
+            <x-jet-section-border/>
+
+            <div class="mt-10 sm:mt-0">
+                <x-jet-action-section>
+                    <x-slot name="title">
                         {{ __('Download your data here') }}
                     </x-slot>
 
@@ -31,10 +68,10 @@
                         </div>
 
 
-
-
                         <div class="mt-5">
-                            <a type="button" class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray disabled:opacity-25 transition ease-in-out duration-150" href="{{route("downloadjson")}}">
+                            <a type="button"
+                               class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray disabled:opacity-25 transition ease-in-out duration-150"
+                               href="{{route("downloadjson")}}">
                                 {{ __('Download data') }}
                             </a>
 
@@ -43,11 +80,11 @@
                 </x-jet-action-section>
             </div>
 
-            <x-jet-section-border />
+            <x-jet-section-border/>
             @if (Laravel\Fortify\Features::enabled(Laravel\Fortify\Features::updateProfileInformation()))
                 @livewire('profile.update-profile-information-form')
 
-                <x-jet-section-border />
+                <x-jet-section-border/>
             @endif
 
             @if (Laravel\Fortify\Features::enabled(Laravel\Fortify\Features::updatePasswords()))
@@ -55,7 +92,7 @@
                     @livewire('profile.update-password-form')
                 </div>
 
-                <x-jet-section-border />
+                <x-jet-section-border/>
             @endif
 
             @if (Laravel\Fortify\Features::canManageTwoFactorAuthentication())
@@ -63,14 +100,14 @@
                     @livewire('profile.two-factor-authentication-form')
                 </div>
 
-                <x-jet-section-border />
+                <x-jet-section-border/>
             @endif
 
             <div class="mt-10 sm:mt-0">
                 @livewire('profile.logout-other-browser-sessions-form')
             </div>
 
-            <x-jet-section-border />
+            <x-jet-section-border/>
 
             <div class="mt-10 sm:mt-0">
                 @livewire('profile.delete-user-form')

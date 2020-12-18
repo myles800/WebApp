@@ -1,3 +1,31 @@
+Tokens
+Gebruiker:Bearer GWTl4czi2PZcvsroTkFDniAGspNdBw3yxxRP1bAd
+Admin:Bearer QJ3aS9FvIibYHKlOxndZuzGLKL9FQabQ9Srd6JBo
+
+ratelimiter van 60 request per user
+
+grbruiker kan enkel eigen data deleten
+
+je kan inloggen op myles.digital en zelf api tokens aanmaken
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

@@ -16,4 +16,7 @@ class JsonToFileController extends Controller
         $headers = array('Content-type'=> 'application/json');
         return response()->download($filename,$filename,$headers);
     }
+    public function gdpr(){
+        return view("gdpr");
+    }
 }

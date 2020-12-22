@@ -79,6 +79,14 @@ Rest api:
                     -kan producten aanpassen
     11) de toegangscontrole wordt op publieke toegangspunten afgedwongen.
     12) een user die ingelogd is kan api tokens creëren.
+    13) Alle URL'S :    -https://myles.digital/api/products/read => toegankelijk voor iedereen
+                        -https://myles.digital/api/products/read/id
+                        -https://myles.digital/api/products/create
+                        -https://myles.digital/api/products/create/id => 405
+                        -https://myles.digital/api/products/update => 405
+                        -https://myles.digital/api/products/update/id
+                        -https://myles.digital/api/products/delete => 405
+                        -https://myles.digital/api/products/delete/id
 
 Toegangstokens:
     Gebruiker1:"Bearer IJONQezQkWJqBTPeysXxtCPEzzHKgNB0giOBGbUQ"

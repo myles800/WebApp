@@ -306,28 +306,7 @@
                     <div style="line-height: 1.5;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                 style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">We use the information we collect or receive:<bdt
                                         class="block-component"></bdt></span></span></span></div>
-                    <ul>
-                        <li style="line-height: 1.5;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                        data-custom-class="body_text"><strong>To facilitate account creation and logon process.</strong> If you choose to link your account with us to a third-party account (such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract.<span
-                                            style="color: rgb(89, 89, 89); font-size: 15px;"><span
-                                                style="font-size: 15px;"><span style="color: rgb(89, 89, 89);"><span
-                                                        data-custom-class="body_text"><bdt class="block-component"><span
-                                                                style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                        data-custom-class="body_text"><span
-                                                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                                style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                                    data-custom-class="body_text"><span
-                                                                                        style="font-size: 15px;"><span
-                                                                                            style="color: rgb(89, 89, 89);"><span
-                                                                                                data-custom-class="body_text"><span
-                                                                                                    style="font-size: 15px;"><span
-                                                                                                        style="color: rgb(89, 89, 89);"><span
-                                                                                                            data-custom-class="body_text"><bdt
-                                                                                                                class="statement-end-if-in-editor"></bdt></span></span></span></span></span></span></span></span></span></span></span></span></bdt></span></span></span></span></span></span></span></span></span></span></span></span>
-                        </li>
-                    </ul>
+
                     <div><span style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                 style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text"><bdt
                                         class="block-component"></bdt></span></span></span></div>
@@ -539,34 +518,16 @@
                                             style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                 data-custom-class="body_text">We may process or share your data that we hold based on the following legal basis:<bdt
                                                     class="block-component"></bdt></span></span></span></div>
+
+
+
+
+
                                 <ul>
                                     <li style="line-height: 1.5;"><span
                                             style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                 style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                    data-custom-class="body_text"><strong>Consent:</strong> We may process your data if you have given us specific consent to use your personal information for a specific purpose.<span
-                                                        style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                data-custom-class="body_text"><bdt
-                                                                    class="statement-end-if-in-editor"></bdt></span></span></span></span></span></span>
-                                    </li>
-                                </ul>
-                                <div><span style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                data-custom-class="body_text"><span
-                                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                        style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                            data-custom-class="body_text"><bdt
-                                                                class="statement-end-if-in-editor"><span
-                                                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                        style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                            data-custom-class="body_text"><bdt
-                                                                                class="block-component"></bdt></span></span></span></bdt></span></span></span></span></span></span>
-                                </div>
-                                <ul>
-                                    <li style="line-height: 1.5;"><span
-                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                    data-custom-class="body_text"><strong>Legitimate Interests:</strong> We may process your data when it is reasonably necessary to achieve our legitimate business interests.<span
+                                                    data-custom-class="body_text"><strong>Legal Obligations:</strong> We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).(our legal obligations)<span
                                                         style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                             style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                                 data-custom-class="body_text"><span
@@ -588,51 +549,8 @@
                                     <li style="line-height: 1.5;"><span
                                             style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                 style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                    data-custom-class="body_text"><strong>Performance of a Contract:</strong> Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract.<span
-                                                        style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                data-custom-class="body_text"><span
-                                                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                        style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                            data-custom-class="body_text"><bdt
-                                                                                class="statement-end-if-in-editor"></bdt></span></span></span></span></span></span></span></span></span>
-                                    </li>
-                                </ul>
-                                <div><span style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                data-custom-class="body_text"><span
-                                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                        style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                            data-custom-class="body_text"><bdt
-                                                                class="block-component"></bdt></span></span></span></span></span></span>
-                                </div>
-                                <ul>
-                                    <li style="line-height: 1.5;"><span
-                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                    data-custom-class="body_text"><strong>Legal Obligations:</strong> We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).<span
-                                                        style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                data-custom-class="body_text"><span
-                                                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                        style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                            data-custom-class="body_text"><bdt
-                                                                                class="statement-end-if-in-editor"></bdt></span></span></span></span></span></span></span></span></span>
-                                    </li>
-                                </ul>
-                                <div><span style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                data-custom-class="body_text"><span
-                                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                        style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                            data-custom-class="body_text"><bdt
-                                                                class="block-component"></bdt></span></span></span></span></span></span>
-                                </div>
-                                <ul>
-                                    <li style="line-height: 1.5;"><span
-                                            style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                    data-custom-class="body_text"><strong>Vital Interests:</strong> We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person and illegal activities, or as evidence in litigation in which we are involved.<span
+                                                    data-custom-class="body_text"><strong>Vital Interests:</strong> We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person and illegal activities, or as evidence in litigation in which we are involved.(
+legitimate interest and our legal obligations)<span
                                                         style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                             style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                                 data-custom-class="body_text"><span
@@ -651,7 +569,8 @@
                                     <li style="line-height: 1.5;"><span
                                             style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                 style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                    data-custom-class="body_text"><strong>Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</span></span></span>
+                                                    data-custom-class="body_text"><strong>Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.(
+legitimate interests, consent and our legal obligations)</span></span></span>
                                     </li>
                                 </ul>
                                 <div><span style="font-size: 15px;"><span style="color: rgb(89, 89, 89);"><span
@@ -752,13 +671,13 @@
                                                         <div style="line-height: 1.5;"><span
                                                                 style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                                     style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                        data-custom-class="body_text"><strong><em>In Short: </em></strong><em> We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.</em></span></span></span>
+                                                                        data-custom-class="body_text"><strong><em>In Short: </em></strong><em> We keep your information for as long you have an account on our service, unless otherwise required by law.</em></span></span></span>
                                                         </div>
                                                         <div style="line-height: 1.5;"><br></div>
                                                         <div style="line-height: 1.5;"><span
                                                                 style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                                     style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                        data-custom-class="body_text">We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than <span
+                                                                        data-custom-class="body_text">We will only keep your personal information for as long you have an account on our service. When you delete your account your data stored on our servers will be deleted. Unless a longer retention period is required or permitted by law (such as tax, accounting or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than <span
                                                                             style="font-size: 15px;"><span
                                                                                 style="color: rgb(89, 89, 89);"><span
                                                                                     data-custom-class="body_text"><bdt
@@ -847,7 +766,7 @@
                                                                                 style="color: rgb(89, 89, 89);"><span
                                                                                     style="font-size: 15px;"><span
                                                                                         data-custom-class="body_text"><em><bdt
-                                                                                                class="block-component"></bdt></em></span></span></span>You may review, change, or terminate your account at any time.</em><span
+                                                                                                class="block-component"></bdt></em></span></span></span>You may review, change,transfer, objection or terminate your account at any time.</em><span
                                                                             style="color: rgb(89, 89, 89);"><span
                                                                                 style="font-size: 15px;"><bdt
                                                                                     class="block-component"></bdt></span></span></span></span></span></span></span></span>
@@ -855,6 +774,25 @@
                                                         <div style="line-height: 1.5;"><span
                                                                 style="font-size: 15px; color: rgb(89, 89, 89);"> </span>
                                                         </div>
+                                                        <div style="line-height: 1.5;"><span
+                                                                style="font-size: 15px; color: rgb(89, 89, 89);"><span
+                                                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
+                                                                        data-custom-class="body_text">At all times you can practce your privacy rights: <span
+                                                                            style="font-size: 15px;"><span
+                                                                                style="color: rgb(89, 89, 89);"><span
+                                                                                    data-custom-class="body_text"><span
+                                                                                        style="color: rgb(48, 48, 241);"><span
+                                                                                            data-custom-class="body_text">
+                                                                                            <ul>
+                                                                                                <li>You can always login in your account and check your data</li>
+                                                                                                <li>You can always login in your account and change your data</li>
+                                                                                                <li>You can always login in your account and delete your data</li>
+                                                                                                <li>You can always login in your account and download your data in json</li>
+                                                                                                <li>You can always contact us if you have objection (myles.de.baerdemaeker@student.ehb.be)</li>
+                                                                                            </ul>
+                                                                                        </span></span></span></span></span>.</span></span></span>
+                                                        </div>
+                                                        <div style="line-height: 1.5;"><br></div>
                                                         <div style="line-height: 1.5;"><span
                                                                 style="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                                     style="font-size: 15px; color: rgb(89, 89, 89);"><span
@@ -973,10 +911,10 @@
                                                                                                             style="font-size: 15px;"><span
                                                                                                                 style="color: rgb(89, 89, 89);"><span
                                                                                                                     data-custom-class="body_text"><bdt
-                                                                                                                        class="block-component"></bdt>Website<bdt
+                                                                                                                        class="block-component"></bdt><bdt
                                                                                                                         class="statement-end-if-in-editor"></bdt><bdt
                                                                                                                         class="block-component"></bdt><bdt
-                                                                                                                        class="block-component"></bdt></span></span></span></span></span></span></span></span></span></span></span>. To opt-out of interest-based advertising by advertisers on our <span
+                                                                                                                        class="block-component"></bdt></span></span></span></span></span></span></span></span></span></span></span><span
                                                                             style="font-size: 15px;"><span
                                                                                 style="color: rgb(89, 89, 89);"><span
                                                                                     data-custom-class="body_text"><span
@@ -991,14 +929,9 @@
                                                                                                                         class="block-component"></bdt>Website<bdt
                                                                                                                         class="statement-end-if-in-editor"></bdt><bdt
                                                                                                                         class="block-component"></bdt><bdt
-                                                                                                                        class="block-component"></bdt></span></span></span></span></span></span></span></span></span></span></span> visit <span
+                                                                                                                        class="block-component"></bdt></span></span></span></span></span></span></span></span></span></span></span>  <span
                                                                             style="color: rgb(48, 48, 241);"><span
-                                                                                data-custom-class="body_text"><a
-                                                                                    data-custom-class="link"
-                                                                                    href="http://www.aboutads.info/choices/"
-                                                                                    rel="noopener noreferrer"
-                                                                                    target="_blank"><span
-                                                                                        style="font-size: 15px;">http://www.aboutads.info/choices/</span></a></span></span>. <span
+                                                                                data-custom-class="body_text"></span></span>. <span
                                                                             style="font-size: 15px;"><span
                                                                                 style="color: rgb(89, 89, 89);"><span
                                                                                     data-custom-class="body_text"><bdt
@@ -1014,15 +947,7 @@
                                                                                         class="block-component"></bdt></span></span></span></span></span></span>
                                                         </div>
                                                         <div style="line-height: 1.5;"><br></div>
-                                                        <div style="line-height: 1.5;"><span
-                                                                style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                    style="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                        data-custom-class="body_text"><strong><u>Opting out of email marketing:</u></strong> You can unsubscribe from our marketing email list at any time by clicking on the unsubscribe link in the emails that we send or by contacting us using the details provided below. You will then be removed from the marketing email list — however, we may still communicate with you, for example to send you service-related emails that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes. To otherwise opt-out, you may:<span
-                                                                            style="color: rgb(89, 89, 89);"><span
-                                                                                style="font-size: 15px;"><span
-                                                                                    data-custom-class="body_text"><bdt
-                                                                                        class="forloop-component"></bdt></span></span></span></span></span></span>
-                                                        </div>
+
                                                         <ul>
                                                             <li style="line-height: 1.5;">
                                                                 <bdt class="question"><span
@@ -1253,7 +1178,7 @@
                                                                         data-custom-class="body_text">visit: <bdt
                                                                             class="question">https://myles.digital/user/profile</bdt><bdt
                                                                             class="else-block"></bdt></span></span><span
-                                                                    data-custom-class="body_text">. We will respond to your request within 30 days.</span></span></span>
+                                                                    data-custom-class="body_text">. If you have any objections please contact us on our email (myles.de.baerdemaeker@student.ehb.be)</span></span></span>
                                                         </div>
                                                         <style>
                                                             ul {

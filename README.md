@@ -28,6 +28,8 @@ Aanmelden:
     3) De user kan pas inloggen nadat hij aangetoond heeft dat hij het emailadres bezit.
     4) Na het aanmelden wordt de user ontvangen in een dashboard, zodat het duidelijk is dat hij ingelogd is.
     5) Na het aanmelden kan hij al zijn gegevens opvragen, wijzigen, verwijderen en downloaden.
+    6) Na het aanmelden zie je in de rechterboven hoek je naam staan je bent dus ingelogd!
+    7) Indien je niet aangemeld bent zie je rechts boven de optie op te registreren of in te loggen.
     
 Bescherming persoonlijke gegevens:
     1) De webtoepassing is conform met de privacy wetgeving.
@@ -43,14 +45,14 @@ Verwerkingsregister:
         -email: myles.de.baerdemaeker@student.ehb.be
     2) Categorie persoonsgegevens: naam, email en passwoord
     3) Categorie betrokkennen: users
-    4) Grondslag voor verwerking: Toestemming
+    4) Grondslag voor verwerking: uitvoering overeenkomst
     5) Doel verwerking: administratie
     6) Locatie verwerker: binnen de EU
     7) Bewaartermijn: tot de user het account verwijderd
     8) Veiligheidsmaatregelen: Voorafgaande autorisatie en het encrypteren van data
-    9) Categorie persoonsgegevens: digitaal;
-    10) Verwerkingsactiviteiten van bijzondere persoonsgegevens: NVT 
-    11) Datum aanmaken register: 18 december 2020
+    9) Verwerkingsactiviteiten van bijzondere persoonsgegevens: NVT 
+    10) Datum aanmaken register: 18 december 2020
+    11) Met welke partijen worden de personengegevens gedeeld: NVT(niemand)
     
 Maatregelen tegen courante aanvallen:
     1) De webtoepassing is beveiligd tegen de opgelijste courante aanvallen.
@@ -60,7 +62,7 @@ Maatregelen tegen courante aanvallen:
 Rest api:
     1) de api biedt alle CRUD operaties aan van het object product die bestaat uit een id, naam, prijs, code en een token.
     2) Elke options succesvolle response bevat de 3 opgelijste headers.
-    3) De methods POST,GET,PUT,DELETE en OPTION zijn toegelaten met de origins https://myles.digital, http://127.0.0.1:8000, http://localhost:8000.
+    3) De methods POST,GET,PUT,DELETE en OPTION zijn toegelaten met de origins https://myles.digital,https://www.myles.digital.
     4) Indien niet het juiste mediatype wordt meegegeven stuurt de resource een status code 406 terug.
     5) "application/json" wordt voor alle resources aangeboden.
     6) de api maakt gebruik van de opgelijste status code in de tabel van de slides.
@@ -79,14 +81,14 @@ Rest api:
                     -kan producten aanpassen
     11) de toegangscontrole wordt op publieke toegangspunten afgedwongen.
     12) een user die ingelogd is kan api tokens creëren.
-    13) Alle URL'S :    -https://myles.digital/api/products/read => toegankelijk voor iedereen
-                        -https://myles.digital/api/products/read/id
-                        -https://myles.digital/api/products/create
-                        -https://myles.digital/api/products/create/id => 405
-                        -https://myles.digital/api/products/update => 405
-                        -https://myles.digital/api/products/update/id
-                        -https://myles.digital/api/products/delete => 405
-                        -https://myles.digital/api/products/delete/id
+    13) Alle URL'S :    -GET https://myles.digital/api/products => toegankelijk voor iedereen
+                        -GET https://myles.digital/api/products/id
+                        -POST https://myles.digital/api/products
+                        -POST https://myles.digital/api/products/id => 405
+                        -PUT https://myles.digital/api/products => 405
+                        -PUT https://myles.digital/api/products/update/id
+                        -DELETE https://myles.digital/api/products => 405
+                        -DELETE https://myles.digital/api/products/id
 
 Toegangstokens:
     Gebruiker1:"Bearer IJONQezQkWJqBTPeysXxtCPEzzHKgNB0giOBGbUQ"

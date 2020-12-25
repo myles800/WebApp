@@ -36,7 +36,6 @@ $(function () {
                 });
         }
         $('#modal').hide();
-        show(SERVERURI);
 
     });
 
@@ -145,6 +144,8 @@ async function create(SERVERURI = '') {
         },
         body: JSON.stringify(data)
     });
+    show(SERVERURI);
+
     return response.json();
 }
 
@@ -164,6 +165,8 @@ async function update(SERVERURI = '') {
     $("#name").val("");
     $("#price").val("");
     $("#code").val("");
+    show(SERVERURI);
+
     return response.json();
 }
 

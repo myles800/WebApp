@@ -44,3 +44,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/downloadjson',[\App\Http\
     ->name('downloadjson');
 Route::middleware(['auth:sanctum', 'verified'])->get('/gdpr',[\App\Http\Controllers\JsonToFileController::class, 'gdpr'])
     ->name('gdpr');
+Route::middleware(['auth:sanctum', 'verified'])->get('/show',[\App\Http\Controllers\RestApiController::class, 'show'])
+    ->name('show');

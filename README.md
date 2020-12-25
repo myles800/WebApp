@@ -82,13 +82,14 @@ Rest api:
     11) de toegangscontrole wordt op publieke toegangspunten afgedwongen.
     12) een user die ingelogd is kan api tokens creëren.
     13) Alle URL'S :    -GET https://myles.digital/api/products => toegankelijk voor iedereen
-                        -GET https://myles.digital/api/products/id
+                        -GET https://myles.digital/api/products/{id}
                         -POST https://myles.digital/api/products
-                        -POST https://myles.digital/api/products/id => 405
+                        -POST https://myles.digital/api/products/{id} => 405
                         -PUT https://myles.digital/api/products => 405
-                        -PUT https://myles.digital/api/products/update/id
+                        -PUT https://myles.digital/api/products/update/{id}
                         -DELETE https://myles.digital/api/products => 405
-                        -DELETE https://myles.digital/api/products/id
+                        -DELETE https://myles.digital/api/products/{id}
+    14) De integrated api is op basis van een gebruiker token, dus deze kan enkel zijn eigen producten verwijderen.
 
 Toegangstokens:
     Gebruiker1:"Bearer IJONQezQkWJqBTPeysXxtCPEzzHKgNB0giOBGbUQ"
